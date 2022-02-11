@@ -1,0 +1,89 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss"; 
+
+
+/* collego il partial della mia funzione  */
+@import "function";
+
+
+/* - Override di bootstrap - */ 
+
+
+$black-background: #000; /* es. di variabili /  / es. di sass color */
+$centra-testo: center;                  /* es. di variabili */
+$pad-section: 50px;  
+                  /* es. di variabili */
+
+
+/* es. di mixin */
+@mixin stilePrincipe{
+   color: crea-contrasto-sfondo($black-background);
+   background-color: $black-background;
+   margin-top: 8px;
+   padding: 0.5em;
+}
+
+/* es. di interpolazione */
+@mixin interpolazione($val1, $val2){
+   font-#{$val1}: $val2;
+}
+
+
+
+/* creo un annidamento */
+body{
+
+   .navbar{
+       background-color: $black-background; /* richiamo variabile */ 
+   }
+
+   main{
+
+       #banner div h1{
+           @include interpolazione("size", 3em); /* richiamo interpolazione */ 
+           
+       }
+
+       article{
+           
+           .container{
+               text-align: $centra-testo; /* richiamo variabile */
+
+               .secondi{
+                   @include stilePrincipe(); /* richiamo mixin */
+               }
+
+               
+               .sezione{
+                   padding: $pad-section; /* richiamo variabile */
+               }
+           }    
+
+       }
+
+       section{
+           
+           
+
+           .brand{
+               text-align: $centra-testo; /* richiamo variabile */
+               flex-grow: 1;
+               padding: 12.8px;
+           }
+       }
+ 
+   }    
+   aside{
+       background-color: $black-background; /* richiamo variabile */
+       color: crea-contrasto-sfondo($black-background); /* urilizo la mia funzione su di una mia variabile */
+
+       .slide_carosello{
+           height: 270px; 
+           
+           img{
+               border-radius: 50%;
+           }
+       }
+   }
+} 
