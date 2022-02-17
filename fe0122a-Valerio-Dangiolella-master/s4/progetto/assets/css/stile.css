@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+
+body{
+    
+    align-items: center;
+    background-image: url(../img/lavagna.png) ;
+    background-size: cover;
+    
+    
+    
+    
+} 
+
+  
+.content {
+    margin-left: 2px;
+    background-color: rgb(116, 117, 116);
+    padding: 0.5px;
+    
+    
+}
+.calcolatrice{
+    text-align: center;
+    background-color: rgb(14, 13, 6);
+    background-size: contain ;
+    border: solid ;
+    box-shadow: 4px, 5px, 4px;
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 10em;
+    
+    }
+.tasto {
+    background-color: #030308 ;
+    color: #f4f6f7;
+    font-size: 22pt;
+    border: solid;
+    margin: 4px 2px;
+    padding: px;
+    height: 50px;
+    width: 49px;
+    border-radius: 10px;
+    font-family: 'Shizuru', cursive;
+    text-align: center;
+}
+.display {
+    background: rgb(253, 252, 252);
+    color: #175c97;
+    font-size: 24pt;
+    border: solid #050607 solid 2px;
+    margin: 4px 2px;
+    width: 204px;
+    height: 40px; 
+    font-family: 'Shizuru', cursive;
+    box-shadow: 0px 0px 0px 8px #000000;
+
+           
+}
+.uguale {
+    width: 208px;
+}
+
+#bottone{
+   font-size: 20px;
+   text-transform: uppercase;
+}
+#diviso{
+ font-size: 30px;
+}
+    
