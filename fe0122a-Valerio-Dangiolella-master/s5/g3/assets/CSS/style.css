@@ -1,0 +1,18 @@
+.nascosto{
+    display: none;
+}
+.toggle{
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .tendina {
+      background-color: burlywood;
+      position: absolute;
+      -webkit-box-shadow: -2px -1px 14px 18px rgba(166,28,166,0.4);
+      -moz-box-shadow: -2px -1px 14px 18px rgba(166,28,166,0.4);
+       box-shadow: -2px -1px 14px 18px rgba(166,28,166,0.4);
+  }

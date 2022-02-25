@@ -1,0 +1,27 @@
+.pointer{
+    cursor: pointer;
+}
+body{
+    background: url("../img/sunset.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
+    
+}
+.btn-outline-secondary{
+    color: black;
+}
+
+.list-group{
+    background-color: darkgrey;
+    box-shadow: 2px 1px 43px 57px rgba(202,202,202,0,75);
+    -webkit-box-shadow: 2px 1px 43px 57px rgba(202,202,202,0.75);
+    -moz-box-shadow: 2px 1px 43px 57px rgba(202,202,202,0.75);;
+}
+.input-group-mb3 {
+    margin-bottom: 0px;
+
+}
