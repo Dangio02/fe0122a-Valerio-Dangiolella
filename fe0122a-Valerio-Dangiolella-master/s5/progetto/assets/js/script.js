@@ -55,7 +55,7 @@ bottone.addEventListener('click', function(){
 
     let li = document.createElement('li')
     li.innerHTML = aggiunta
-
+o
     li.addEventListener('click', function(){
         li.remove()
     })
