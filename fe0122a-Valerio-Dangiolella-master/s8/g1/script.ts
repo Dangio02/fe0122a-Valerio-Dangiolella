@@ -51,3 +51,5 @@ function confronto(num1, num2) {
     }
 }
 confronto(giocatore1, giocatore2);
+
+Screen (AbortController KeyboardEvent MouseEvent, HTMLOListElement) ,screen
